@@ -1,0 +1,27 @@
+.searchContainer {
+    width: 35rem;
+    height: 3rem;
+    background-color: #ffffff; /* 700px in rem units */
+    border: 1.3px solid #000000;
+    border-radius: 4px; /* Outer container outline */
+    display: flex;
+    align-items: center;
+    box-shadow: -3px 5px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.searchInput {
+    width: calc(100% - 2rem);
+    border: none;
+    outline: none; /* Adjust input width */
+    padding: 0.5rem;
+  }
+
+.searchInput::placeholder {
+    opacity: 0.7;
+}
+
+.arrowIcon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem; /* Adjust icon spacing */
+    cursor: pointer;
+  }
